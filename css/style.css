@@ -1,5 +1,5 @@
 /* RESET/GENERAL */
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,5 +7,29 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 1.25rem 0;
+}
+p{
+    margin: .9375rem 0;
+}
+a{
+    text-decoration: none;
+}
+
+.list_nested{
+    list-style: lower-alpha;
 }
 
