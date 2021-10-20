@@ -73,6 +73,8 @@ $faqs= [
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <!-- FONT-AWESOME -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
         <!-- GOOGLE-FONTS -->
@@ -83,12 +85,20 @@ $faqs= [
         <header>
             <div class="top">
 
-                <img src="img/googlelogo_clr_74x24px.svg" alt="">
-                    
-                <a href="#">Privacy e termini</a>
+                <div class="left">
+                    <img src="img/googlelogo_clr_74x24px.svg" alt="">
+                    <a href="#">Privacy e termini</a>
+                </div>
+
+                <div class="right">
+                    <i class="fas fa-th"></i>
+                    <div class="user_icon">
+                        <img src="https://play-lh.googleusercontent.com/-Zoxok3_7DZU/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucmGlwLvBSqhcYmpuNulRaZX6BMlPg/photo.jpg" alt="">
+                    </div>
+                </div>
                 
             </div>
-            
+
             <nav>
                 <ul>
                     <li><a href="#">Introduzione</a></li>
@@ -133,6 +143,24 @@ $faqs= [
         </main>
 
         <footer>
+
+            <div class="container">
+
+                <ul>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Tutto su Google</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+                
+               <div>
+                    <i class="fas fa-globe-europe"></i>
+                    <select name="lang" id="">
+                        <option value="ita">italiano</option>
+                    </select>
+               </div>
+
+            </div>
      
 
         </footer>
