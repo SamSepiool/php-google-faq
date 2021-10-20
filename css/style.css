@@ -1,44 +1,79 @@
 /* RESET/GENERAL */
-body{
+*{
     margin: 0;
     padding:0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-ul{
-    list-style: none;
-    padding: 0; 
+p{
+    margin: 30px 0;
 }
-
 a{
     text-decoration: none;
 }
+ul{
+    list-style: none; 
+}
+/* FONT */
+main{
+    font-size: .82em;
+    line-height:.7cm
+}
+
+h2{
+    font-size: 24px;
+    font-weight: 500;
+}
+h3{
+    font-size: 18px;
+}
+
+/* HEADER */
+header{
+    padding: 1.25rem;
+    
+}
+.top{
+    display: flex;
+    align-items: center;
+}
+a{
+    font-size: 1.2em;
+}
+.logo{
+    border: 1px solid red;
+}
+/* HEADER */
 
 .container{
     max-width: 62.5rem;
     margin: auto;
-    /* border: 1px solid red; */
+    padding: 10px;
+
 }
 .question{
     margin-bottom: 5rem;
 }
-
-.question p{
-    margin: 2.5rem 0;
-    font-size: .85em;
-}
-
-.list_nested{
-    font-size: .85em;
-}
-
-.list_nested ol{
-    list-style: lower-alpha;
+    
+.list_nested,
+ol:first-child {
+    margin-left: 1em;
+    /* margin-block-start: 1em; */
+    /* margin-inline-end: 1em; */
 }
 .list_nested li{
-    margin: 1.875rem 0;
-
+    padding: 15px 0 0 15px;
 }
+.list_nested > li:first-child{
+    padding-top: 0;
+}
+ol:first-child{
+    list-style: lower-alpha;
+}
+
+
+
+
 
 
 
