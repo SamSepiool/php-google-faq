@@ -17,7 +17,8 @@ ul{
 /* FONT */
 main{
     font-size: .82em;
-    line-height:.7cm
+    line-height:.7cm;
+    padding-top: 12.5rem
 }
 
 h2{
@@ -30,20 +31,56 @@ h3{
 
 /* HEADER */
 header{
-    padding: 1.25rem;
-    
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding:  0 1.25rem;
+    border-bottom: 1px solid gray;
 }
 .top{
-    display: flex;
-    align-items: center;
+    padding-top: 18px ;
 }
+
+.top img{
+    margin-right: 2px;
+    vertical-align:text-bottom;
+}
+
 a{
-    font-size: 1.2em;
+    font-size: 1.3em;
+    color: gray;
 }
-.logo{
-    border: 1px solid red;
+
+header nav ul{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    display: flex;
 }
+
+nav ul li{
+    margin-right:50px;
+    padding-bottom: 5px;
+}
+
+nav a{
+    font-size: .9em;
+}
+nav ul li:last-child{
+    border-bottom: 3px solid blue;
+}
+
+nav ul li:last-child a{
+    color: blue;
+}
+
+nav ul li:hover{
+    border-bottom: 3px solid blue;
+}
+
 /* HEADER */
+
 
 .container{
     max-width: 62.5rem;

@@ -83,12 +83,21 @@ $faqs= [
         <header>
             <div class="top">
 
-                <img class='logo' src="img/googlelogo_clr_74x24px.svg" alt="">
+                <img src="img/googlelogo_clr_74x24px.svg" alt="">
                     
                 <a href="#">Privacy e termini</a>
                 
-              
             </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Introduzione</a></li>
+                    <li><a href="#">Norme sulla privacy</a></li>
+                    <li><a href="#">Termini di servizio</a></li>
+                    <li><a href="#">Tecnologie</a></li>
+                    <li><a href="#">Domande frequenti</a></li>
+                </ul>
+            </nav>
 
         </header>
 
